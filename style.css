@@ -1,0 +1,36 @@
+.main_blok{
+    width: 204.9px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    background: yellowgreen;
+}
+
+.tab{
+    overflow: hidden;
+    background-color: yellow
+}
+
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: yellowgreen
+}
+
+.tab button.active {
+    background-color: yellowgreen
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid yellowgreen
+    border-top: none;
+}
